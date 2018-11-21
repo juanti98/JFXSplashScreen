@@ -1,0 +1,28 @@
+.logo{
+	-fx-text-fill: #ff5000;
+	-fx-background-radius: 100.0;
+	-fx-background-color: white;
+	    -fx-font-family: Lobster;
+	-fx-font-size: 50.0;
+}
+
+.fondo{
+	-fx-background-color: #ff5000;
+}
+
+.nameLogo{
+	-fx-font-family: Lobster;
+	-fx-text-fill: white;
+	-fx-font-size: 40.0;
+}
+
+.texts{
+	-fx-text-fill: white;
+	-fx-font-size: 20.0;
+}
+
+.textsOther{
+	-fx-font-family: Lobster;
+	-fx-text-fill: black;
+	-fx-font-size: 50.0;
+}

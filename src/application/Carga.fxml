@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXSpinner?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane fx:id="mainPane" prefHeight="500.0" prefWidth="600.0" styleClass="fondo" stylesheets="@application.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controller">
+   <children>
+      <VBox alignment="CENTER" prefHeight="274.0" prefWidth="600.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="30.0">
+         <children>
+            <Label fx:id="logo" alignment="CENTER" contentDisplay="CENTER" prefHeight="73.0" prefWidth="72.0" styleClass="logo" text="P" />
+            <Label fx:id="name" styleClass="nameLogo" stylesheets="@application.css" text="PACIFIER">
+               <VBox.margin>
+                  <Insets top="10.0" />
+               </VBox.margin>
+            </Label>
+            <Label fx:id="message" alignment="TOP_CENTER" contentDisplay="TOP" prefHeight="94.0" prefWidth="207.0" styleClass="texts" stylesheets="@application.css" text="Hello there, wellcome to my application!" textAlignment="CENTER" wrapText="true">
+               <VBox.margin>
+                  <Insets top="10.0" />
+               </VBox.margin>
+            </Label>
+         </children>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </VBox>
+      <VBox fx:id="spinner" alignment="CENTER" layoutX="193.0" layoutY="403.0" opacity="0.0" prefHeight="94.0" prefWidth="214.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+         <children>
+            <JFXSpinner />
+            <Label alignment="CENTER" styleClass="texts" stylesheets="@application.css" text="WAIT A FEW SECONDS" textAlignment="CENTER" wrapText="true">
+               <VBox.margin>
+                  <Insets top="10.0" />
+               </VBox.margin></Label>
+         </children>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </VBox>
+   </children>
+</AnchorPane>
